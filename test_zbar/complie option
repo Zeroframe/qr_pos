@@ -1,0 +1,3 @@
+g++ test_qrcode.cpp -o test_qrcode `pkg-config --cflags --libs opencv --libs zbar`
+ =>opencv와 Zbar library 링크
+
